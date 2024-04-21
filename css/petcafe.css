@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mitr", sans-serif;
+}
+
+nav {
+    padding: 1em;
+    background-color: #333;
+
+}
+
+.contaner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("assist/Background3.png");
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+select,
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 0.8em;
+    color: #666;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-size: 16px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th:first-child,
+td:first-child {
+    width: 65%;
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+    width: 15%;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background-color: orange;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+    display: block;
+    margin: 0 auto;
+}

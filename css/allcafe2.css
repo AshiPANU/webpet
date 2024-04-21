@@ -1,0 +1,98 @@
+/* CSS for the nav bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ff7f50; /* เปลี่ยนสีเมื่อเม้าส์ hover */
+}
+
+/* CSS for the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trainer-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.1); /* เพิ่มขนาดเมื่อ hover */
+}
+
+.trainer-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* CSS for the sliding message */
+#slideDownMessage {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    transition: top 0.5s ease;
+}
+
+#slideDownMessage button {
+    background-color: #ff7f50; /* เปลี่ยนสีปุ่ม */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CSS for the select box */
+#booking {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

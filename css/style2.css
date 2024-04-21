@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: bisque;
+    color: brown;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.petcafepic {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* php */
+.formall {
+    min-height: 100vh;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    background-color: #333;
+}
+
+.formall form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: #fff;
+    text-align: center;
+}
+
+.formall form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000;
+  }
+
+.formall form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 4px;
+}
+
+.formall form{
+    background: white;
+}
+.formall form .form-btn {
+    background: wheat;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formall form .form-btn:hoover {
+    background: brown;
+    color: white;
+}
+
+.formall form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.formall form p a {
+    color: blue;
+}
+
+.formall form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: brown;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
